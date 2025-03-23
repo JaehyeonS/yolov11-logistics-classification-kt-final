@@ -1,0 +1,11 @@
+train: /content/drive/MyDrive/Bigproject/data_food/images/train
+val: /content/drive/MyDrive/Bigproject/data_food/images/val
+test: /content/drive/MyDrive/Bigproject/data_food/images/test
+
+nc: 26
+names: [
+    "bread", "snack", "coffee", "juice", "noodle", "seasoning", "shampoo",
+    "soap", "bodywash", "moisturizer", "detergent", "toothpaste", "tata_salt",
+    "cheese", "egg", "milk", "meat", "sausages", "beverage", "canned_food",
+    "miscellaneous_item", "apple", "banana", "tomato", "cucumber", "carrot"
+]

@@ -65,12 +65,18 @@ YOLO 모델을 Fine-Tuning하여 다양한 상품을 자동 인식하고,
 ## 📁 데이터셋 정보
 
 - **총 이미지 수**: 22,586장
-- **구성 방식**:
-  - Roboflow Universe에서 수집한 오픈 데이터
-  - MFC 물류 환경 기반 **자체 촬영 이미지 추가**
-- **클래스 수**: 26개
-  - 예: `snack`, `banana`, `canned_food`, `cheese`, `detergent`, ...
-
+- **데이터 경로**:
+  - `train`: `/content/drive/MyDrive/Bigproject/data_food/images/train`
+  - `val`: `/content/drive/MyDrive/Bigproject/data_food/images/val`
+  - `test`: `/content/drive/MyDrive/Bigproject/data_food/images/test`
+- **데이터 구성 방식**:
+  - Roboflow Universe에서 수집한 **생활물류 오픈 데이터**
+  - MFC(물류센터) 환경에서 **직접 촬영한 이미지 병합**
+- **클래스 수**: 총 26개  
+  - `bread`, `snack`, `coffee`, `juice`, `noodle`, `seasoning`, `shampoo`,  
+    `soap`, `bodywash`, `moisturizer`, `detergent`, `toothpaste`, `tata_salt`,  
+    `cheese`, `egg`, `milk`, `meat`, `sausages`, `beverage`, `canned_food`,  
+    `miscellaneous_item`, `apple`, `banana`, `tomato`, `cucumber`, `carrot`
 ---
 
 ## 🛠️ 기술 스택

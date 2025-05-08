@@ -1,4 +1,4 @@
-# 📦 물류센터 상품 자동 검사 시스템
+  # 📦 물류센터 상품 자동 검사 시스템
 
 ## 📌 프로젝트 개요
 
@@ -71,7 +71,7 @@ YOLO 모델을 Fine-Tuning하여 다양한 상품을 자동 인식하고,
   - `test`: `/content/drive/MyDrive/Bigproject/data_food/images/test`
 - **데이터 구성 방식**:
   - Roboflow Universe에서 수집한 **생활물류 오픈 데이터**
-  - MFC(물류센터) 환경에서 **직접 촬영한 이미지 병합**
+  - 물류센터 환경을 반영한 **직접 촬영한 이미지 병합**
 - **클래스 수**: 총 26개  
   - `bread`, `snack`, `coffee`, `juice`, `noodle`, `seasoning`, `shampoo`,  
     `soap`, `bodywash`, `moisturizer`, `detergent`, `toothpaste`, `tata_salt`,  
